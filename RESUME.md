@@ -49,6 +49,7 @@ Python开发:
 💻 项目经验
 
 销售数据可视化分析系统 | 个人开发项目
+
 技术栈: Python, PyEcharts, Git
 
 核心工作:
@@ -64,6 +65,7 @@ Python开发:
 项目链接: https://github.com/syf-gh/Personal-development/tree/main/Sales-Data-Visualization
 
 全国新冠疫情数据地图 | 个人开发项目
+
 技术栈: Python, PyEcharts, JSON, Git
 
 核心工作:
