@@ -1,0 +1,3 @@
+# 忽略所有项目data目录下的大数据文件
+Covid19-China-Map/data/*
+!Covid19-China-Map/data/.gitkeep

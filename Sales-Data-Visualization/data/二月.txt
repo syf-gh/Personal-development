@@ -1,0 +1,14 @@
+{"date": "2024-02-01", "order_id": "OD20240201001", "money": 499, "province": "广东省"}
+{"date": "2024-02-01", "order_id": "OD20240201002", "money": 268, "province": "浙江省"}
+{"date": "2024-02-02", "order_id": "OD20240202001", "money": 699, "province": "江苏省"}
+{"date": "2024-02-03", "order_id": "OD20240203001", "money": 329, "province": "山东省"}
+{"date": "2024-02-03", "order_id": "OD20240203002", "money": 580, "province": "广东省"}
+{"date": "2024-02-04", "order_id": "OD2024020401", "money": 189, "province": "河北省"}
+{"date": "2024-02-05", "order_id": "OD20240205001", "money": 720, "province": "四川省"}
+{"date": "2024-02-05", "order_id": "OD20240205002", "money": 299, "province": "浙江省"}
+{"date": "2024-02-06", "order_id": "OD20240206001", "money": 450, "province": "河南省"}
+{"date": "2024-02-07", "order_id": "OD20240207001", "money": 620, "province": "广东省"}
+{"date": "2024-02-08", "order_id": "OD20240208001", "money": 399, "province": "江苏省"}
+{"date": "2024-02-09", "order_id": "OD20240209001", "money": 999, "province": "上海市"}
+{"date": "2024-02-09", "order_id": "OD20240209002", "money": 250, "province": "北京市"}
+{"date": "2024-02-10", "order_id": "OD20240210001", "money": 520, "province": "山东省"}
