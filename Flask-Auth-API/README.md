@@ -32,6 +32,7 @@ pip
 1.克隆项目
 
 git clone https://github.com/syf-gh/Personal-development.git
+
 cd Personal-development/Flask-Auth-API  # 请确保进入项目具体目录
 
 2.安装依赖
@@ -55,9 +56,10 @@ Endpoint: POST /index
 请求参数:
 
     参数	      位置	     类型	    必填	     说明
-   token	      Query	    String	    Yes	    用于身份验证的Token密钥
+   token	         Query	      String	      Yes	      用于身份验证的Token密钥
    
- order_sting	  Body	    JSON       Yes	     订单字符串
+ order_sting	    Body	      JSON         Yes	       订单字符串
+ 
 请求示例 (cURL):
 
 curl -X POST "http://127.0.0.1:5000/index?token=ghekjfsdfhue5" \
@@ -65,6 +67,7 @@ curl -X POST "http://127.0.0.1:5000/index?token=ghekjfsdfhue5" \
 -H "Content-Type: application/json" \
 
 -d '{"order_sting": "test_order_123"}'
+
 
 响应示例:
 
@@ -77,6 +80,7 @@ json
         "result": "pythonAPI鉴权成功"
     }
 }
+
 失败示例 (Token错误):
 
 json
@@ -84,6 +88,7 @@ json
     "status": false,
     "error": "token错误"
 }
+
 失败示例 (参数缺失):
 
 json
@@ -91,6 +96,7 @@ json
     "status": false,
     "error": "order_sting缺失"
 }
+
 📁 项目结构
 
 
@@ -138,6 +144,7 @@ GitHub: @syf-gh
 技能: Python, Flask, 数据处理, 自动化测试
 
 如果您有任何疑问，欢迎通过GitHub Issues或我的邮箱联系我
+
 
 
 
