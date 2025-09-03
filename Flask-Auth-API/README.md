@@ -20,6 +20,7 @@
 
 
 🚀 快速开始
+
 环境要求
 。Python 3.7+
 
@@ -29,10 +30,13 @@
 1.克隆项目
 git clone https://github.com/syf-gh/Personal-development.git
 cd Personal-development/Flask-Auth-API  # 请确保进入项目具体目录
+
 2.安装依赖
 pip install -r requirements.txt
+
 3.启动服务
 python app.py
+
 服务器默认启动在：http://127.0.0.1:5000
 
 📡 API 文档
@@ -114,5 +118,6 @@ GitHub: @syf-gh
 技能: Python, Flask, 数据处理, 自动化测试
 
 如果您有任何疑问，欢迎通过GitHub Issues或我的邮箱联系我
+
 
 
