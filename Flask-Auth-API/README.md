@@ -22,38 +22,50 @@
 🚀 快速开始
 
 环境要求
-。Python 3.7+
 
-。pip
+Python 3.7+
+
+pip
 
 安装步骤
+
 1.克隆项目
+
 git clone https://github.com/syf-gh/Personal-development.git
 cd Personal-development/Flask-Auth-API  # 请确保进入项目具体目录
 
 2.安装依赖
+
 pip install -r requirements.txt
 
 3.启动服务
+
 python app.py
 
 服务器默认启动在：http://127.0.0.1:5000
 
 📡 API 文档
+
 鉴权接口
+
 Endpoint: POST /index
 
 对请求进行Token鉴权。
 
 请求参数:
 
-    参数	     位置	     类型	    必填	     说明
-   token	     Query	  String	  Yes	    用于身份验证的Token密钥
-order_sting	   Body	    JSON      Yes	     订单字符串
+    参数	      位置	     类型	    必填	     说明
+   token	      Query	    String	    Yes	    用于身份验证的Token密钥
+   
+ order_sting	  Body	    JSON       Yes	     订单字符串
 请求示例 (cURL):
+
 curl -X POST "http://127.0.0.1:5000/index?token=ghekjfsdfhue5" \
+
 -H "Content-Type: application/json" \
+
 -d '{"order_sting": "test_order_123"}'
+
 响应示例:
 
 成功 (200 OK):
@@ -81,12 +93,19 @@ json
 }
 📁 项目结构
 
+
 Flask-Auth-API/
+
 ├── app.py                 # Flask应用主文件，包含核心逻辑与路由
+
 ├── requirements.txt       # 项目Python依赖包列表
+
 ├── db.txt                # Token存储文件（演示用途）
+
 └── README.md            # 项目说明文档（本文档）
+
 🔧 技术栈
+
 Backend Framework: Flask
 
 CORS Handling: Flask-CORS
@@ -94,6 +113,7 @@ CORS Handling: Flask-CORS
 Data Format: JSON
 
 💭 设计思路与后续优化
+
 本项目旨在清晰演示后端鉴权的基本逻辑。当前采用文件系统存储Token是为了简洁和易于演示，这体现了对配置与代码分离原则的理解。
 
 生产环境优化方向:
@@ -118,6 +138,7 @@ GitHub: @syf-gh
 技能: Python, Flask, 数据处理, 自动化测试
 
 如果您有任何疑问，欢迎通过GitHub Issues或我的邮箱联系我
+
 
 
 
