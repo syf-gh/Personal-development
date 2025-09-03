@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的项目作品集 | syf-gh</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; }
+        h1 { color: #333; }
+        .project { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 5px; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>🎯 我的数据可视化项目集</h1>
+    <p>以下是我使用 Python 和 PyEcharts 完成的两个数据可视化项目，点击链接可直接查看交互式效果。</p>
+
+    <div class="project">
+        <h2>📊 项目一：销售数据可视化分析系统</h2>
+        <p><strong>描述：</strong>处理与分析多来源销售数据，生成交互式柱状图。</p>
+        <p><a href="./Sales-Data-Visualization/output/每日销售额柱状图.html" target="_blank">👉 点击这里查看销售数据图表</a></p>
+    </div>
+
+    <div class="project">
+        <h2>🗺️ 项目二：全国新冠疫情数据地图</h2>
+        <p><strong>描述：</strong>解析复杂疫情数据，绘制全国分布地图。</p>
+        <p><a href="./Covid19-China-Map/output/疫情map.html" target="_blank">👉 点击这里查看全国疫情地图</a></p>
+    </div>
+
+    <hr>
+    <p><small>查看项目源代码，请访问我的 <a href="https://github.com/syf-gh/Personal-development">GitHub 仓库</a>。</small></p>
+</body>
+</html>
