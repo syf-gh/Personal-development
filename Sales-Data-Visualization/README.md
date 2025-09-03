@@ -5,15 +5,25 @@
 ## 项目结构
 
 Sales-Data-Visualization/
+
 ├── data/ # 原始数据目录
+
 │ ├── 一月.txt # 一月份销售数据（TXT格式）
+
 │ └── 二月.txt # 二月份销售数据（JSON格式）
+
 ├── src/ # 源代码目录
+
 │ ├── file_Define.py # 数据实体类定义
+
 │ ├── file_Reader.py # 数据读取类（支持TXT和JSON）
+
 │ └── main.py # 主程序，负责数据整合与图表生成
+
 ├── output/ # 输出结果目录
+
 │ └── 每日销售额柱状图.html # 生成的可视化图表
+
 └── README.md # 项目说明
 
 ## 技术栈
